@@ -1,0 +1,21 @@
+# Ultralytics YOLO 🚀, licencia AGPL-3.0
+# Dataset de Tumores Cerebrales por Ultralytics
+# Documentación: https://docs.ultralytics.com/datasets/detect/brain-tumor/
+# Ejemplo de uso: yolo train data=brain-tumor.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── brain-tumor  ← downloads here (4.21 MB)
+
+# Conjuntos de Train/val/test
+path: brain-tumor # directorio raíz del dataset
+train: images/train # imágenes de entrenamiento 893 imágenes
+val: images/val # imágenes de validación 223 imágenes
+
+# Clases (Etiquetas que el modelo va a predecir)
+names:
+  0: negative # Negativo (sin tumor)
+  1: positive # Positivo (con tumor)
+
+# URL de descarga (opcional)
+download: https://github.com/ultralytics/assets/releases/download/v0.0.0/brain-tumor.zip
