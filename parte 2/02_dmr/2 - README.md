@@ -12,6 +12,7 @@ El enfoque es crear aplicaciones de IA interactivas para desarrolladores y usuar
 Si utilizamos `GitHub Codespaces` inicializaremos el entorno del espacio ejecutando en el directorio `02_dmr` el script:
 
 `$ chmod +x init.sh`
+
 `$ ./init.sh`
 
 ## Docker Model Runner (DMR)
