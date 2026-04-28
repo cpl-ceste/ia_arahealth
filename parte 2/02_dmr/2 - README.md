@@ -84,7 +84,7 @@ Cuando termina la descarga del modelo, podemos verificar que se ha descargado co
 
 `$ docker model run hf.co/unsloth/medgemma-1.5-4b-it-GGUF`
 
-8) modificamos el docker compose para que utilice otros modelos que se descarguen al iniciar:
+7) modificamos el docker compose para que utilice otros modelos que se descarguen al iniciar:
 
 ```yaml
 services:
@@ -119,4 +119,4 @@ volumes:
   open-webui:
 ```
 
-7) cambia la configuracion de los modelos (temperatura y contexto) y vuelve a ejecutar el docker compose. Consulta las opciones disponibles [DMR Opciones de configuracion](https://docs.docker.com/ai/model-runner/configuration/). Compara los resultados con los anteriores.
+8) cambia la configuracion de los modelos (temperatura y contexto) y vuelve a ejecutar el docker compose. Consulta las opciones disponibles [DMR Opciones de configuracion](https://docs.docker.com/ai/model-runner/configuration/). Compara los resultados con los anteriores.
