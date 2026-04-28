@@ -84,7 +84,7 @@ Cuando termina la descarga del modelo, podemos verificar que se ha descargado co
 
 `$ docker model run hf.co/unsloth/medgemma-1.5-4b-it-GGUF`
 
-7) modificamos el docker compose para que utilice otros modelos que se descarguen al iniciar:
+8) modificamos el docker compose para que utilice otros modelos que se descarguen al iniciar:
 
 ```yaml
 services:
