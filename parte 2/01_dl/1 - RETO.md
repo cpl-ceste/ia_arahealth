@@ -48,8 +48,6 @@ En un entorno hospitalario moderno, la relevancia de esta tecnología es verdade
 - c) El modelo podría priorizar el diagnóstico de enfermedades raras porque le resultan más "interesantes".
 - d) Ninguno, un millar de imágenes es siempre suficiente para garantizar una precisión clínica universal del 100%.
 
-*(Respuestas correctas: 1-b, 2-b, 3-a, 4-b, 5-a)*
-
 ---
 
 ## Dinámica de "Retos por Niveles"
